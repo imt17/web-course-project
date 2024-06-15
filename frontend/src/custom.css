@@ -1,0 +1,47 @@
+/* custom.css */
+
+/* Custom background for the page */
+body {
+  background-color: #f0f0f0;
+}
+
+/* Custom styles for the header */
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.header a {
+  margin: 0 10px;
+  color: #61dafb;
+  text-decoration: none;
+}
+
+/* Custom styles for the content section */
+.content {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Custom styles for the image */
+.city-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Custom styles for the footer */
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
