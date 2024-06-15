@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './custom.css'; 
+import CityData from './component-ajax';
 function App() {
   return (
     <div className="App">
@@ -20,11 +21,13 @@ function App() {
 
 
           </p>
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/NYC_Montage_2014_4_-_Jleon.jpg/1280px-NYC_Montage_2014_4_-_Jleon.jpg" 
-            alt="New York City"
-            className="city-image"
-          />
+  <img
+  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/NYC_Montage_2014_4_-_Jleon.jpg/1280px-NYC_Montage_2014_4_-_Jleon.jpg" 
+  alt="New York City"
+  class="city-image"
+/>
+<CityData />
+
         </div>
         <div className="footer">
           <p>&copy; 2024 New York Information</p>
